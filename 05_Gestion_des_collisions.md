@@ -4,7 +4,7 @@ Maintenant tu vas programmer les **événements** (conditions + actions).
 
 ### Événement d'initialisation (Au démarrage)
 
-#### Événement 1 : "Au démarrage de la scène"
+#### Événement 1 : "Au lancement de la scène"
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/action_lancement_scene.png" alt="Action" width="500"/>
 
