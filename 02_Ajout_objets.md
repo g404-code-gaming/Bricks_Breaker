@@ -32,7 +32,7 @@ Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène
 
 5. Nomme-le : **`Paddle`** ⚠️ (nom important, utilisé partout)
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/renommer_objet.png" alt="Fond" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_objet.png" alt="Fond" width="300"/>
 
 6. Clique sur le bouton **Importer des images**
 
@@ -43,7 +43,7 @@ Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène
      
 7. Ton objet est créé.
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_cree.png" alt="Fond" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_en_place.png" alt="Fond" width="300"/>
 
 8. Cliquer sur **Appliquer**
 
@@ -51,7 +51,7 @@ Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène
 
 9. Ton objet est bien présent sur la scène.
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_dans_scene.png" alt="Fond" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_nom.png" alt="Fond" width="300"/>
 
 
 ---
