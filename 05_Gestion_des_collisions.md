@@ -74,7 +74,12 @@ Ici, nous allons créer une variable qui va nous permettre de gérer l'état du 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_left.png" alt="Action" width="900"/>
 
 
-**Action supplémentaire** : Limiter le Paddle à ne pas dépasser le mur gauche
+**Action supplémentaire** : Empêcher le Paddle à ne pas dépasser le mur 
+
+   - Condition : la variable `GameState`est ) *NotStarted*
+   - Action : **Séparer deux objets** et séparer le `Paddle` du `Wall`
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/deplacer_loin.png" alt="Action" width="900"/>
 
 
 ---
