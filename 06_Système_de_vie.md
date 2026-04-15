@@ -37,52 +37,40 @@
 
 **Actions** :
 
-**Action 8.1** : Réduire une vie
+**Action 8.1** : Modifier la variable `GameState`à `"Wait"`. Cela va mettre le jeu en suspens.
+
+**Action 8.2** : Supprimer une vie
 
 - Cherche **"Variables"** → **"Modifier une variable de scène"**
 
-- Variable : `playerLives`
+- Variable : `Life`
 
-- Opération : `-`
+- Opération : `-` (Soustraire)
 
 - Valeur : `1`
 
-**Action 8.2** : Supprimer un sprite de vie
+**Action 8.3** : Supprimer (*Éteindre*) un sprite de vie
 
-C'est plus complexe. Tu vas utiliser un **sous-événement** pour choisir quel `Life` supprimer.
-
-- **Ajouter un sous-événement** → **"Comparaison"**
-  - `playerLives` `=` `2`
-  - **Action** : Supprimer `Life3`
+Tu vas utiliser un **sous-événement** pour choisir quel `Life` supprimer.
 
 - **Ajouter un sous-événement** → **"Comparaison"**
-  - `playerLives` `=` `1`
-  - **Action** : Supprimer `Life2`
+  - **Condition** : `Life` `=` `2`
+  - **Action** : Changer l'**animation** `Life3` et la passer à *Empty*
+ 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/life2_visuel.png" alt="Life" width="400"/>
 
 - **Ajouter un sous-événement** → **"Comparaison"**
-  - `playerLives` `=` `0`
-  - **Action** : Aller vers la scène **"GameOver"** (tu la créeras plus tard)
+  - **Condition** : `Life` `=` `1`
+  - **Action** : Changer l'**animation** `Life2` et la passer à *Empty*
 
-**Action 8.3** : Replacer la balle
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/life1_visuel.png" alt="Life" width="400"/>
 
-- Cherche **"Position"**
-
-- Objet : `Ball`
-
-- X : `400`
-
-- Y : `480`
-
-**Action 8.4** : Immobiliser la balle
-
-- Cherche **"Physique 2D"** → **"Arrêter l'objet"**
-- Objet : `Ball`
-
-**Action 8.5** : Repositionner le Paddle au centre
-- Cherche **"Position"**
-
-- Objet : `Paddle`
-
-- X : `400`
-
-- Y : `540`
+- **Ajouter un sous-événement** → **"Comparaison"**
+  - **Condition** : `Life` `=` `0`
+  - **Actions** :
+      - Changer l'**animation** `Life1` et la passer à *Empty*
+      - Supprimer les objets `Paddle` et `Ball`
+      - Attendre `1s`
+      - Relancer la scène
+   
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/game_over.png" alt="Life" width="400"/>
