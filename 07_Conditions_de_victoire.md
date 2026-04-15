@@ -71,4 +71,14 @@ Voici à quoi pourra ressembler ton bloc complet de victoire :
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bloc_victoire.png" alt="Victoire" width="900"/>
 
+---
+
+## Sauvegarder
+
+<img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/19_Sauvegarder.png" alt="Placement des objets" width="400"/>
+
+Clique maintenant sur l'icône en forme de **disquette** en haut à gauche de ton espace de travail *GDevelop* pour sauvegarder ton projet.
+
+---
+
 **Direction le niveau 2**
