@@ -51,10 +51,13 @@ Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_nom.png" alt="Fond" width="300"/>
 
+
+⚠️ **Nous allons répéter l'opération pour la `Ball`et les `Bricks`**
+
 ### Étape B : Ajouter l'objet Ball
 
 1. **Ajouter un objet** → **"Sprite"**
-2. Nomme-le : **`Ball`** ⚠️ (nom important)
+2. Nomme-le : **`Ball`**
 3. Sélectionne l'objet :
    - Va dans le dossier *`Assets`* et choisis la `Ball`
    - Taille idéale : **8×8 pixels** (largeur × hauteur)
@@ -96,19 +99,20 @@ Ces briques plus complexes arrivent au **Level 2**. Pour Level 1, on reste simpl
 
 Les murs empêchent la balle de sortir des côtés et du haut.
 
-1. **Ajouter un objet** → **"Tiled Sprite"**
-2. Nomme-le : **`Wall`** ⚠️ (nom important)
-3. Sélectionne une texture pour les murs
-   - Cherche : "wall", "brick", "stone"
-4. Ajoute une **animation** (Tiled Sprite en a besoin)
-5. Ajoute le comportement **"Physique 2D"** :
-   - **Type d'objet** : `Statique` (immobile)
+1. **Ajouter un objet** → Magazin de Ressources
+2. Cherche la série d'objets `Dungeon` ou tape *`Wall`* dans la barre de recherche
+3. Sélectionne plusieurs murs de manière à construre un espace fermé **carré** qui te servira de scène.
 
-Tu vas placer 3 instances de `Wall` :
-- **Wall gauche** : X=0, Y=0, Width=16, Height=600
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/serie_dungeon.png" alt="Fond" width="600"/>
 
-- **Wall droit** : X=784, Y=0, Width=16, Height=600
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/wall_corner.png" alt="Fond" width="600"/>
 
-- **Wall haut** : X=0, Y=0, Width=800, Height=16
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/wall_side_mid_right.png" alt="Fond" width="600"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/wall_corner_top_right.png" alt="Fond" width="600"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/wall_top_mid.png" alt="Fond" width="600"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/wall_side_mid_left.png" alt="Fond" width="600"/>
 
 ---
