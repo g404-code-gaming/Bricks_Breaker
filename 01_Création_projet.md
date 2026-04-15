@@ -1,6 +1,6 @@
-# 🧩 Démarrer ton Breeakout
+# 🧩 Démarrer ton Breakout
 
-Voici les étapes simples pour lancer ton futur jeu 🎮
+Voici les étapes simples pour lancer ton futur jeu d'arcade 🎮
 
 ---
 
@@ -52,6 +52,17 @@ Ensuite, il faut configurer ton nouveau jeu :
 
 ---
 
+
+## 5️⃣ Renommer ton niveau 1
+
+Clique à gauche sur le menu Hamburger pour ouvrir les propriétés du jeu.  
+Dans la section *Scènes*, clique sur les trois petits points à droite de *Scène sans titre* et renomme la scène en *level1*  
+Valide, et double clique à nouveau sur *level1* pour rouvrir les onglets sur ton espace de travail.   
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/level1.png" alt="Level 1" width="500"/>
+
+---
+
 ## 🎬 Et voilà !
 
 Une fois validé, tu arrives dans **l’espace de travail** :
@@ -59,12 +70,6 @@ Une fois validé, tu arrives dans **l’espace de travail** :
 - 🧱 La scène au milieu  
 - ⚙️ Les propriétés à gauche  
 - 🧩 Les objets à droite  
-
-Clique à gauche sur le menu Hamburger pour ouvrir les propriétés du jeu.  
-Dans la section *Scènes*, clique sur les trois petits points à droite de *Scène sans titre* et renomme la scène en *level1*  
-Valide, et double clique à nouveau sur *level1* pour rouvrir les onglets sur ton espace de travail.   
-
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/level1.png" alt="Level 1" width="500"/>
 
 Ton aventure de développeur peut commencer 🔥
 
