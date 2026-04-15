@@ -62,7 +62,13 @@ Une fois la victoire obtenue, nous allons basculer le score de la scene (`sceneS
 
 ### Level 2 
 
-
+Let's go ! Nous pouvons aller au **level 2** !
   
-- Cherche **"Scène"** → **"Changer de scène"** (ou "Go to scene")
-- Scène : **"Victory"** (tu la créeras plus tard)
+- Cherche **Autres actions** puis **"Scène"** → **"Changer de scène"**
+- Choisir la scène : **"Level2"** (que tu auras créer juste avant)
+
+Voici à quoi pourra ressembler ton bloc de victoire :
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bloc_victoire.png" alt="Victoire" width="900"/>
+
+**Direction le niveau 2**
