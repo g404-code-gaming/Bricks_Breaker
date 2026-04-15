@@ -56,9 +56,9 @@ Dans les propriétés du jeu (menu hamburger), clique sur **Variables globles** 
 
 Une fois la victoire obtenue, nous allons basculer le score de la scene (`sceneScore`) à `globalScore` pour le sauvegarder.  
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_ok.png" alt="Victoire" width="900"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_ok.png" alt="Victoire" width="700"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_ok_detail.png" alt="Victoire" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_ok_detail.png" alt="Victoire" width="300"/>
 
 ### Level 2 
 
