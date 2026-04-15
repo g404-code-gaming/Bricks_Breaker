@@ -43,7 +43,7 @@ Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_en_place.png" alt="Fond" width="300"/>
 
-8. Cliquer sur **Appliquer**
+8. Clique sur **Appliquer**
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_appliquer.png" alt="Fond" width="300"/>
 
