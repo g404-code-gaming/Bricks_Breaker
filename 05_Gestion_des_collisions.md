@@ -9,6 +9,9 @@ Maintenant tu vas programmer les **événements** (conditions + actions).
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/action_lancement_scene.png" alt="Action" width="500"/>
 
 1. Clique sur l'onglet **"Événements"**
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajout_evenement.png" alt="Action" width="500"/>
+
 2. **Ajouter un événement** → **"Au lancement de la scène"**
 
 Ajoute les actions suivantes :
