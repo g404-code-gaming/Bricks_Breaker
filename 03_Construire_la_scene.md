@@ -24,6 +24,10 @@ Organise-les en **grille simple** pour le Level 1 !
 
 Place également le `Paddle`, la `Ball` et les `Wall`pour avancer ton niveau.  
 
+- Le `Paddle` (la raquette) est en bas au milieu de la scène.
+- Garde un espace vide en dessous
+- La `Ball` est placée sur la raquette
+
 - Crée un objet `Wall` à partir de zéro (**`Mosaïque`**) et fait une zone de couleur, comme tu as as l'habitude de faire pour les zones de morts par exemple.
 - Place-le sur tes murs aux 4 côtés de ta **scène**
 - Il servira à faire **rebondir** ta balle et à faire en sorte que ta raquette ne puisse **s'échapper** de la scène !!
