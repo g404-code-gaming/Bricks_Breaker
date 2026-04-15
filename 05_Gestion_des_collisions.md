@@ -154,7 +154,9 @@ Même chose que l'événement 2, mais :
 
    **Action 6.1** : Jouer un son (optionnel)
    - Cherche **"Jouer un son"**
-   - Son : Cherche dans les ressources (ex: `touch.ogg`, `pop.ogg`)
+   - Son : Crée le son avec *Jfxr* qui te convient
+  
+   <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/jfxr.png" alt="Action" width="200"/>
 
    **Action 6.2** : Supprimer la brique
    - Cherche **"Objet"** → **"Supprimer l'objet"**
