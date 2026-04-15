@@ -4,13 +4,13 @@
 
 - Sur l'objet **Paddle**, ajoute une variable `Life` et la définir à *3* points
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_life.png" alt="Life" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_life.png" alt="Life" width="800"/>
 
 ### Créer visuellement la barre de vie
 
 - Dans le Magasin de ressources, ajoute l'objet **Life**
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_life.png" alt="Life" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_life.png" alt="Life" width="600"/>
 
 - Renomme le *Life1* puis duplique le **deux fois** pour obtenir *Life2* et *Life3*
 
