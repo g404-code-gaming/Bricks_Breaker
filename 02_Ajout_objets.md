@@ -1,6 +1,6 @@
-## 🎨 Mise en place de la scène {#scène}
+## 🎨 Mise en place de la scène
 
-### Ajouter un fond (arrière-plan)
+### Ajouter un arrière-plan
 
 1. À droite de l'écran, cherche le panneau **"Objets"**
 2. Clique sur **"Ajouter un objet"** (icône `+`)
