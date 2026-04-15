@@ -18,7 +18,7 @@ Voici les étapes simples pour lancer ton futur jeu 🎮
 - Clique sur **"Créer un nouveau projet"**
 - Une fenêtre s’ouvre avec plusieurs modèles disponibles
 
-<img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/01_Creer_le_projet.png" alt="Créer le projet" width="600"/>
+<img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/01_Creer_le_projet.png" alt="Créer le projet" width="800"/>
 
 ---
 
@@ -28,7 +28,7 @@ Voici les étapes simples pour lancer ton futur jeu 🎮
 
 👉 Cela te permet de partir de zéro et de construire ton jeu entièrement toi-même.
 
-<img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/02_Projet_vide.png" alt="Projet vide" width="800"/>
+<img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/02_Projet_vide.png" alt="Projet vide" width="600"/>
 
 ---
 
@@ -64,7 +64,7 @@ Clique à gauche sur le menu Hamburger pour ouvrir les propriétés du jeu.
 Dans la section *Scènes*, clique sur les trois petits points à droite de *Scène sans titre* et renomme la scène en *level1*  
 Valide, et double clique à nouveau sur *level1* pour rouvrir les onglets sur ton espace de travail.   
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/level1.png" alt="Level 1" width="600"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/level1.png" alt="Level 1" width="500"/>
 
 Ton aventure de développeur peut commencer 🔥
 
