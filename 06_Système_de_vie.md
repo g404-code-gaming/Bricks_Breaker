@@ -35,6 +35,8 @@
 5. Condition : `>` (plus grand que)
 6. Valeur : `560` (sous la raquette)
 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/position_ball_y.png" alt="Life" width="400"/>
+
 **Actions** :
 
 **Action 8.1** : Modifier la variable `GameState`à `"Wait"`. Cela va mettre le jeu en suspens.
