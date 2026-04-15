@@ -40,12 +40,6 @@ Place également le `Paddle`, la `Ball` et les `Wall`pour avancer ton niveau.
 
 ---
 
-Laisse un espace libre à gauche de la scène, il te servira plus tard pour y ajouter tes scores et autres infos !  
-
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/niveau1.png" alt="niveau1" width="700"/>
-
----
-
 ### Le Score
 
 D'ailleurs, occupons nous du score !
@@ -62,6 +56,8 @@ D'ailleurs, occupons nous du score !
 - Ajoute un petit objet **Texte** appelé `Text_Score` en plus au-dessus avec marqué *Score*
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_affichage.png" alt="niveau1" width="300"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/niveau1.png" alt="niveau1" width="700"/>
 
 ---
 
