@@ -68,7 +68,7 @@ Ici, nous allons créer une variable qui va nous permettre de gérer l'état du 
    - Angle : `180`
    - Vitesse : `300`
   
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_left.png" alt="Action" width="800"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_left.png" alt="Action" width="900"/>
 
 
 **Action supplémentaire** : Limiter le Paddle à ne pas dépasser le mur gauche
@@ -86,7 +86,7 @@ Même chose que l'événement 2, mais :
    - Vitesse : `300`
 
   
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_right.png" alt="Action" width="800"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_right.png" alt="Action" width="900"/>
 
 ---
 
@@ -107,7 +107,7 @@ Même chose que l'événement 2, mais :
 4. **Action** :
    - Cherche **"Ajouter une force (angle)"** 
    - Objet : `Ball`
-   - Angle : `-45+RandomInRange(-10,10) (vers le haut ± variation aléatoire)
+   - Angle : `-45+RandomInRange(-10,10)` (vers le haut ± variation aléatoire)
    - Vitesse : `300`
    - *Permanente*
   
