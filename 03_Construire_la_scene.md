@@ -1,5 +1,5 @@
 
-## 🧱 Configuration des briques
+## 🧱 Placer ces objets
 
 ### Placer les briques sur la scène
 
@@ -40,7 +40,7 @@ Laisse un espace libre à gauche de la scène, il te servira plus tard pour y aj
 
 ---
 
-## Sauvegarder
+### Sauvegarder
 
 <img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/19_Sauvegarder.png" alt="Placement des objets" width="300"/>
 
