@@ -8,7 +8,7 @@
    - Cherche : **"Blue Space"** 
 4. Nomme cet objet : `Background`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/blue_space.png" alt="Fond" width="700"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/blue_space.png" alt="Fond" width="600"/>
 
 Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène (800×600)
 
@@ -16,9 +16,7 @@ Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène
 
 ## 🎯 Création des objets principaux
 
-### Créer la raquette (Paddle)
-
-#### Étape A : Ajouter l'objet Paddle
+### Étape A : Ajouter l'objet Paddle
 
 1. Va dans le panneau **"Objets"** à gauche
 2. Clique sur **"Ajouter un objet"** (`+`)
@@ -53,44 +51,48 @@ Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_nom.png" alt="Fond" width="300"/>
 
-
----
-
-### 6️⃣ Créer la balle (Ball)
-
-#### Étape A : Ajouter l'objet Ball
+### Étape B : Ajouter l'objet Ball
 
 1. **Ajouter un objet** → **"Sprite"**
 2. Nomme-le : **`Ball`** ⚠️ (nom important)
-3. Sélectionne une **image circulaire/sphérique**
-   - Cherche : "ball", "sphere", "orb", "bullet"
-   - Taille : **16×16 ou 32×32 pixels**
+3. Sélectionne l'objet :
+   - Va dans le dossier *`Assets`* et choisis la `Ball`
+   - Taille idéale : **8×8 pixels** (largeur × hauteur)
+4. Ajoute-lui un comporterment : **Rebond** (ou **Bounce** en anglais) et clique sur **Appliquer**
 
-#### Étape B : Ajouter une animation
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ball.png" alt="Fond" width="300"/>  
 
-1. Double-clique sur **`Ball`**
-2. Onglet **"Animations"** → **"Ajouter une animation"**
-3. Nomme-la : **`Normal`**
-4. Ajoute l'image du sprite
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bounce.png" alt="Fond" width="600"/>  
 
-#### Étape C : Ajouter un comportement physique
+### Étape C : Créer Red_Brick
 
-1. Toujours dans les propriétés de **`Ball`**
-2. Section **"Comportements"** → **"Ajouter un comportement"**
-3. Sélectionne **"Physique 2D"**
-4. Configure les paramètres :
-   - **Type d'objet** : `Dynamique`
-   - **Gravité appliquée** : `Non` (important !)
-   - **Peut se mettre en arrêt** : `Oui`
-   - **Élasticité (rebond)** : `1` (rebond parfait)
-   - **Friction** : `0` (pas de friction)
-   - **Densité** : `1`
+1. **Ajouter un objet** → **"Sprite"**
+2. Nomme-le : **`Red_Brick`**
+3. Sélectionne l'objet :
+   - Va dans le dossier *`Assets`* et choisis `Red_brick`
+   - Taille : **32×16 pixels**
+4. **Appliquer**
 
-👉 **Pourquoi ces paramètres ?** Avec élasticité = 1 et friction = 0, la balle se comporte comme un vrai rebond arcade.
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/red_brick.png" alt="Fond" width="300"/>  
 
----
+### Étape D : Créer Green_Brick
 
-### 7️⃣ Créer les murs (Wall)
+1. **Ajouter un objet** → **"Sprite"**
+2. Nomme-le : **`Green_Brick`**
+3. Sélectionne l'objet :
+   - Va dans le dossier *`Assets`* et choisis `Green_brick`
+   - Taille : **32×16 pixels**
+4. **Appliquer**
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/green_brick.png" alt="Fond" width="300"/>  
+
+**Pour le Level 1, tu crées SEULEMENT 2 types de briques :**
+
+#### ❌ Pas de Yellow_Brick ni Blue_Brick pour le Level 1 !
+
+Ces briques plus complexes arrivent au **Level 2**. Pour Level 1, on reste simple ! 🎯
+
+### Étape E : Ajouter les murs
 
 Les murs empêchent la balle de sortir des côtés et du haut.
 
@@ -110,29 +112,3 @@ Tu vas placer 3 instances de `Wall` :
 - **Wall haut** : X=0, Y=0, Width=800, Height=16
 
 ---
-
-### 8️⃣ Créer les briques (Bricks)
-
-**Pour le Level 1, tu crées SEULEMENT 2 types de briques :**
-
-#### Étape A : Créer Red_Brick
-
-1. **Ajouter un objet** → **"Sprite"**
-2. Nomme-le : **`Red_Brick`** ⚠️ (nom exact)
-3. Sélectionne une **image rectangulaire rouge**
-   - Cherche : "brick red", "block red"
-   - Taille : **64×32 pixels**
-4. Ajoute une animation nommée **`Normal`**
-5. Ajoute le comportement **"Physique 2D"** :
-   - **Type** : `Statique` (ne se déplace pas)
-
-#### Étape B : Créer Green_Brick
-
-1. **Dupliquer** l'objet `Red_Brick` (clic droit → Dupliquer)
-2. Renomme-le : **`Green_Brick`** ⚠️
-3. Double-clique et change l'image pour une **version verte**
-4. Garde les mêmes paramètres (animation, Physique 2D)
-
-#### ❌ Pas de Yellow_Brick ni Blue_Brick pour le Level 1 !
-
-Ces briques plus complexes arrivent au **Level 2**. Pour Level 1, on reste simple ! 🎯
