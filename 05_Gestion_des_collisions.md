@@ -177,3 +177,9 @@ Même chose que l'événement 2, mais :
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/collision_bricks.png" alt="Action" width="900"/>
 
 ---
+
+## Sauvegarder
+
+<img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/19_Sauvegarder.png" alt="Placement des objets" width="400"/>
+
+Clique maintenant sur l'icône en forme de **disquette** en haut à gauche de ton espace de travail *GDevelop* pour sauvegarder ton projet.
