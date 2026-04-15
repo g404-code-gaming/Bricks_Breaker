@@ -20,6 +20,8 @@ Organise-les en **grille simple** pour le Level 1 !
 
 👉 **Conseil** : Place la première rouge, puis duplique-la 3 fois pour la première ligne, puis change les verts, etc.
 
+---
+
 ### Placer les autres objets
 
 Place également le `Paddle`, la `Ball` et les `Wall`pour avancer ton niveau.  
@@ -41,6 +43,10 @@ Place également le `Paddle`, la `Ball` et les `Wall`pour avancer ton niveau.
 Laisse un espace libre à gauche de la scène, il te servira plus tard pour y ajouter tes scores et autres infos !  
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/niveau1.png" alt="niveau1" width="700"/>
+
+---
+
+### Le Score
 
 D'ailleurs, occupons nous du score !
 
