@@ -1,5 +1,7 @@
 ## Perte d'une vie
 
+Nous allons créer un système de points de vie visuellement cool 😎
+
 ### Créer la variable de vie
 
 - Sur l'objet **Paddle**, ajoute une variable `Life` et la définir à *3* points
