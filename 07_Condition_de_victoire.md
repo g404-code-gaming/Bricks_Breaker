@@ -67,7 +67,7 @@ Let's go ! Nous pouvons aller au **level 2** !
 - Cherche **Autres actions** puis **"Scène"** → **"Changer de scène"**
 - Choisir la scène : **"Level2"** (que tu auras créer juste avant)
 
-Voici à quoi pourra ressembler ton bloc de victoire :
+Voici à quoi pourra ressembler ton bloc complet de victoire :
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bloc_victoire.png" alt="Victoire" width="900"/>
 
