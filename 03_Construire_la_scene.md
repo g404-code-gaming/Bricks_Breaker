@@ -1,5 +1,5 @@
 
-## 🧱 Placer ces objets
+## 🧱 Placer ses objets
 
 ### Placer les briques sur la scène
 
