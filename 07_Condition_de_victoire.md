@@ -4,7 +4,7 @@
 
 ### Au démarrage du jeu
 
-Dans l'espace de gauche sur notre scène, en plus du *score* et des *points de vie*, nous allons ajouter le nombre de *bricks* à détruire, et faire un décopte à chaque fois que nous en touchons une.
+Dans l'espace de gauche sur notre scène, en plus du *score* et des *points de vie*, nous allons ajouter le nombre de *bricks* à détruire, et faire un décompte à chaque fois que nous en touchons une.
 
 Nous allons utiliser une méthode toute prête de gDevelop **SceneInstancesCount()** qui permet de compter le nombre d'instances d'un objet dans la scène (ici le nombre de bricks).
 
@@ -16,7 +16,7 @@ Nous allons utiliser une méthode toute prête de gDevelop **SceneInstancesCount
 
  - Quand le jeu démarre, donne-lui la valeur `SceneInstancesCount(Bricks)` ou `Bricks` représente notre groupe d'objets.
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/scene_instance.png" alt="Victoire" width="800"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/scene__instance.png" alt="Victoire" width="800"/>
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/scene_instance_detail.png" alt="Victoire" width="400"/>
 
