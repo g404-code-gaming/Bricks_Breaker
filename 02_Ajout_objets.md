@@ -14,38 +14,45 @@ Ensuite, ajoute **Blue Space** sur ta scène et fais lui couvrir toute la scène
 
 ---
 
-## 🎯 Création des objets principaux {#objets}
+## 🎯 Création des objets principaux
 
-### 5️⃣ Créer la raquette (Paddle)
+### Créer la raquette (Paddle)
 
 #### Étape A : Ajouter l'objet Paddle
 
 1. Va dans le panneau **"Objets"** à gauche
 2. Clique sur **"Ajouter un objet"** (`+`)
-3. Sélectionne **"Sprite"**
-4. Nomme-le : **`Paddle`** ⚠️ (nom important, utilisé partout)
-5. Sélectionne une **image rectangulaire** pour la raquette
-   - Cherche : "paddle", "bar", "racket", "bat"
+3. Sélectionne **Nouvel objet à partir de zéro**
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/nouvel_objet_zero.png" alt="Fond" width="300"/>
+   
+4. Sélectionne **"Sprite"**
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/sprite.png" alt="Fond" width="300"/>
+
+5. Nomme-le : **`Paddle`** ⚠️ (nom important, utilisé partout)
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/renommer_objet.png" alt="Fond" width="300"/>
+
+6. Clique sur le bouton **Importer des images**
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_importer_images.png" alt="Fond" width="300"/>
+
+   - Va dans le dossier *`Assets`* et choisis une des raquette de ton choix
    - Taille idéale : **64×16 pixels** (largeur × hauteur)
-   - Ou charge ton propre sprite PNG
+     
+7. Ton objet est créé.
 
-#### Étape B : Ajouter une animation
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_cree.png" alt="Fond" width="300"/>
 
-1. Double-clique sur **`Paddle`** (dans la liste)
-2. Onglet **"Animations"** → **"Ajouter une animation"**
-3. Crée une animation nommée **`Perfect`** (l'état normal de la raquette)
-4. Ajoute l'image du sprite à cette animation
+8. Cliquer sur **Appliquer**
 
-#### Étape C : ⚠️ PAS de Physique 2D !
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_appliquer.png" alt="Fond" width="300"/>
 
-**N'ajoute PAS de comportement Physique 2D au Paddle.**
+9. Ton objet est bien présent sur la scène.
 
-À la place, tu vas le **contrôler par code** (événements), ce qui offre :
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_dans_scene.png" alt="Fond" width="300"/>
 
-- ✅ Un mouvement plus réactif et précis
-
-- ✅ Une meilleure performance
-- ✅ Un contrôle parfait de la collision avec les murs
 
 ---
 
