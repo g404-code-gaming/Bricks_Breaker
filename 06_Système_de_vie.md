@@ -51,6 +51,15 @@
 
 - Valeur : `1`
 
+**Action 8.3** : Repositionner les objets `Paddle` et `Ball` 
+
+- **Arrête* toutes les forces
+- Repositionne* les objets
+- *Attendre 1s*
+- Rebascule `GameState` à `"NotStarted"`
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bloc_position_ball_y.png" alt="Life" width="900"/>
+
 **Action 8.3** : Supprimer (*Éteindre*) un sprite de vie
 
 Tu vas utiliser un **sous-événement** pour choisir quel `Life` supprimer.
