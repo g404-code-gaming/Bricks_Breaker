@@ -1,5 +1,5 @@
 
-## 🧱 Configuration des briques {#briques}
+## 🧱 Configuration des briques
 
 ### Placer les briques sur la scène
 
