@@ -22,7 +22,7 @@ Organise-les en **grille simple** pour le Level 1 !
 
 ### Placer les autres objets
 
-Place également le `Paddle`, à la `Ball` et les `Wall`pour avancer ton niveau.  
+Place également le `Paddle`, la `Ball` et les `Wall`pour avancer ton niveau.  
 
 - Crée un objet `Wall` à partir de zéro (**`Mosaïque`**) et fait une zone de couleur, comme tu as as l'habitude de faire pour les zones de morts par exemple.
 - Place-le sur tes murs aux 4 côtés de ta **scène**
