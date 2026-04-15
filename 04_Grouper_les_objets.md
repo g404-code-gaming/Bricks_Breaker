@@ -6,7 +6,7 @@ Les groupes permettent de programmer les collisions une seule fois au lieu de 4 
 
 1. En bas à droite, cherche l'onglet **"Groupes d'objets"** (ou **"Object groups"**)
 2. Clique sur **"Ajouter un groupe"**
-3. Nomme-le : **`Bricks`** ⚠️ (nom exact)
+3. Nomme-le : **`Bricks`**
 4. Ajoute ces objets au groupe :
    - ✅ `Red_Brick`
    - ✅ `Green_Brick`
@@ -14,7 +14,7 @@ Les groupes permettent de programmer les collisions une seule fois au lieu de 4 
 #### Groupe 2 : `Rebond` (objets avec lesquels la balle rebondit)
 
 1. **Ajouter un groupe**
-2. Nomme-le : **`Rebond`** ⚠️ (nom exact)
+2. Nomme-le : **`Rebond`** 
 3. Ajoute :
    - ✅ `Paddle` (la raquette)
    - ✅ `Red_Brick`
