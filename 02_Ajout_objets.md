@@ -115,4 +115,8 @@ Les murs empêchent la balle de sortir des côtés et du haut.
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/wall_side_mid_left.png" alt="Fond" width="600"/>
 
----
+
+Le but sera d'obtenir ce genre de résultat : 
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/mur.png" alt="Fond" width="600"/>
+
