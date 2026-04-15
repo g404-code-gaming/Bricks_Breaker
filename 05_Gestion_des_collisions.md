@@ -17,11 +17,11 @@ Ajoute les actions suivantes :
 - **"Ajouter une action"**
 - Cherche **"Variables"** → **"Modifier une variable de scène"**
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/icone_variables_scene.png" alt="Action" width="200"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/icone_variables_scene.png" alt="Action" width="100"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_scenescore.png" alt="Action" width="500"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_scenescore.png" alt="Action" width="700"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_scenescore_detail.png" alt="Action" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_scenescore_detail.png" alt="Action" width="300"/>
 
 - Variable : `sceneScore`
 - Opération : `=`
@@ -31,9 +31,9 @@ Ajoute les actions suivantes :
 
 Ici, nous allons créer une variable qui va nous permettre de gérer l'état du jeu (*non démarré*, *en cours*, *en pause*).
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_gamestate.png" alt="Action" width="500"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_gamestate.png" alt="Action" width="700"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_gamestate_detail.png" alt="Action" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_gamestate_detail.png" alt="Action" width="300"/>
 
 - **"Ajouter une action"**
 - Cherche **"Variables"** → **"Modifier une variable de scène"**
@@ -68,7 +68,7 @@ Ici, nous allons créer une variable qui va nous permettre de gérer l'état du 
    - Angle : `180`
    - Vitesse : `300`
   
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_left.png" alt="Action" width="700"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_left.png" alt="Action" width="800"/>
 
 
 **Action supplémentaire** : Limiter le Paddle à ne pas dépasser le mur gauche
@@ -86,7 +86,7 @@ Même chose que l'événement 2, mais :
    - Vitesse : `300`
 
   
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_right.png" alt="Action" width="700"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/touche_right.png" alt="Action" width="800"/>
 
 ---
 
@@ -111,7 +111,7 @@ Même chose que l'événement 2, mais :
    - Vitesse : `300`
    - *Permanente*
   
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/random_ball.png" alt="Action" width="600"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/random_ball.png" alt="Action" width="800"/>
 
 👉 **RandomInRange** : Ajoute une variation aléatoire (-15 à +15°) pour que chaque lancement soit légèrement différent.
 
