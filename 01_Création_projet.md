@@ -36,16 +36,16 @@ Voici les étapes simples pour lancer ton futur jeu d'arcade 🎮
 
 Ensuite, il faut configurer ton nouveau jeu :
 
-- 📍 Choisir où enregistrer le projet  
+- 📍 Choisis où enregistrer le projet  
   - Sur le **Cloud (en ligne)**  
   - Ou sur ton **ordinateur**
 
-- ✏️ Donner un nom à ton projet 
+- ✏️ Donne un nom à ton projet 
   (ex : *Breakout*, *Bricks Breaker*, etc.)
 
 - ⚙️ Pour la résolution, choisis **Personnalisé** et laisse 800 x 600
 
-- 🎨 Cocher la case **Pixel Art**  
+- 🎨 Coche la case **Pixel Art**  
   (important car le style du jeu sera rétro en hommage au jeu d'origine)
 
 <img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/03_Options_de_base.png" alt="Options" width="800"/>
