@@ -23,6 +23,17 @@ Organise-les en **grille simple** pour le Level 1 !
 ### Placer les autres objets
 
 Place également le `Paddle`, à la `Ball` et les `Wall`pour avancer ton niveau.  
+
+- Crée un objet `Wall` à partir de zéro (**`Mosaïque`**) et fait une zone de couleur, comme tu as as l'habitude de faire pour les zones de morts par exemple.
+- Place-le sur tes murs aux 4 côtés de ta **scène**
+- Il servira à faire **rebondir** ta balle et à faire en sorte que ta raquette ne puisse **s'échapper** de la scène !!
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_wall.png" alt="Wall" width="700"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/wall_en_place.png" alt="Wall" width="700"/>
+
+---
+
 Laisse un espace libre à gauche de la scène, il te servira plus tard pour y ajouter tes scores et autres infos !  
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/niveau1.png" alt="niveau1" width="700"/>
