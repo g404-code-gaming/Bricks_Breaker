@@ -137,7 +137,7 @@ Même chose que l'événement 2, mais :
    - Cherche **"Rebondir"** (ou "Bounce")
    - L'action gère **automatiquement** les rebonds !
   
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/rebondir.png" alt="Action" width="600"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/rebondir.png" alt="Action" width="700"/>
 
 👉 **Magie de gDevelop** : La fonction "Rebondir" calcule automatiquement l'angle et la direction du rebond. Pas besoin de physique complexe ! 🎯
 
