@@ -39,7 +39,7 @@
 
 **Actions** :
 
-**Action 8.1** : Modifier la variable `GameState`à `"Wait"`. Cela va mettre le jeu en suspens.
+**Action 8.1** : Modifier la variable `GameState` à `"Wait"`. Cela va mettre le jeu en suspens.
 
 **Action 8.2** : Supprimer une vie
 
