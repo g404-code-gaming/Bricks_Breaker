@@ -98,7 +98,7 @@ Même chose que l'événement 2, mais :
 
 ---
 
-### 1️⃣7️⃣ Événement 4 : Lancer la balle
+### Événement 4 : Lancer la balle
 
 **Conditions** :
 1. La balle est **en arrêt** (immobile)
@@ -125,38 +125,41 @@ Même chose que l'événement 2, mais :
 
 ---
 
-### 1️⃣8️⃣ Événement 5 : Rebonds de la balle
+### Événement 5 : Rebonds de la balle
 
 **Condition** : La balle entre en **collision** avec les objets du groupe `Rebond`
 
 1. **Ajouter un événement**
-2. Cherche **"Collision"** → **"Au contact"** (ou "In collision with")
+2. Cherche **"Collision"**
 3. **Premier objet** : `Ball`
 4. **Deuxième objet** : Groupe **`Rebond`**
 5. **Action** :
-   - Cherche **"Physique 2D"** → **"Rebondir"** (ou "Bounce")
+   - Cherche **"Rebondir"** (ou "Bounce")
    - L'action gère **automatiquement** les rebonds !
+  
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/rebondir.png" alt="Action" width="600"/>
 
 👉 **Magie de gDevelop** : La fonction "Rebondir" calcule automatiquement l'angle et la direction du rebond. Pas besoin de physique complexe ! 🎯
 
 ---
 
-### 1️⃣9️⃣ Événement 6 : Détruire Red_Brick
+### Événement 6 : Détruire les `Bricks`
 
-**Condition** : La balle touche une brique rouge.
+**Condition** : La balle touche une brique rouge ou verte.
 
 1. **Ajouter un événement**
-2. **Collision** → **"Au contact"**
-3. `Ball` + `Red_Brick`
+2. **Collision**
+3. `Ball` + Groupe d'objets `Bricks`
 4. **Actions** :
 
    **Action 6.1** : Jouer un son (optionnel)
-   - Cherche **"Sonore"** → **"Jouer un son"**
+   - Cherche **"Jouer un son"**
    - Son : Cherche dans les ressources (ex: `touch.ogg`, `pop.ogg`)
 
    **Action 6.2** : Supprimer la brique
    - Cherche **"Objet"** → **"Supprimer l'objet"**
    - Objet : `Red_Brick`
+   - Objet : `Green_Brick`
 
    **Action 6.3** : Ajouter 5 points
    - Cherche **"Variables"** → **"Modifier une variable de scène"**
@@ -169,15 +172,6 @@ Même chose que l'événement 2, mais :
    - Objet : `The_Score`
    - Texte : `ToString(Variable(sceneScore))`
 
----
-
-### 2️⃣0️⃣ Événement 7 : Détruire Green_Brick
-
-**Identique à l'Événement 6**, sauf :
-
-1. Collision : `Ball` + `Green_Brick`
-2. Objet à supprimer : `Green_Brick`
-3. Points à ajouter : `8` (un peu plus que le rouge pour récompenser)
-4. Le reste reste identique
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/collision_bricks.png" alt="Action" width="900"/>
 
 ---
