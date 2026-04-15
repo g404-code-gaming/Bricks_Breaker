@@ -26,21 +26,37 @@ Nous allons utiliser une méthode toute prête de gDevelop **SceneInstancesCount
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/affichage_nombre_bricks.png" alt="Victoire" width="900"/>
 
-### Évènement
+### Évènements et actions
 
 1. **Ajouter un événement**
-2. Cherche **"Comparaison"** → **"Nombre d'instances"**
-3. Groupe : `Bricks`
-4. Condition : `=` (égal)
+2. Cherche **"Autres conditions"** → **"Variables"** → **"Valeur de la variable"**
+3. Variable : `Nombre_bricks`
+4. Condition : `=` (égal à)
 5. Valeur : `0`
 
 **Action** :
 
-- Cherche **"Scène"** → **"Changer de scène"** (ou "Go to scene")
+- Supprime l'objet `Ball`
+- Joue un son de victoire (optionnel)
 
-- Scène : **"Victory"** (tu la créeras plus tard)
+**Avant de partir direction le level 2, quelques derniers ajustement**
 
 ### Score global
 
+Nous allons créer une variable globale `globalScore`.  
+Contrairement aux *variables de scène*, cette variable existe dans l'**intégralité** de toutes les scènes du jeu.  
+Nous allons enregistrer nos scores de niveaux au fur et à mesure pour faire un **high score** global.  
+
+
+Dans les propriétés du jeu (menu hamburger), clique sur **Variables globles** et créer la variable `globalScore`
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/creer_vg.png" alt="Victoire" width="400"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/vg_detail.png" alt="Victoire" width="600"/>
 
 ### Level 2 
+
+
+  
+- Cherche **"Scène"** → **"Changer de scène"** (ou "Go to scene")
+- Scène : **"Victory"** (tu la créeras plus tard)
