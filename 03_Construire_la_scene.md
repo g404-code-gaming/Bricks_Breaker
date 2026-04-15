@@ -42,6 +42,21 @@ Laisse un espace libre à gauche de la scène, il te servira plus tard pour y aj
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/niveau1.png" alt="niveau1" width="700"/>
 
+D'ailleurs, occupons nous du score !
+
+- Crée un objet **Texte** appelé `Text_Score`
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/texte_score" alt="niveau1" width="300"/>
+
+- Choisis une **police rétro** dans le *Magasin de ressources* et règle les options (couleur, taille)
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/texte_score_detail.png" alt="niveau1" width="800"/>
+
+- Ajoute-le à la scène à gauche
+- Ajoute un petit objet **Texte** en plus au-dessus avec marqué *Score*
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_affichage.png" alt="niveau1" width="300"/>
+
 ---
 
 ### Sauvegarder
