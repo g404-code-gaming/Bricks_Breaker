@@ -3,14 +3,7 @@
 
 ### Placer les briques sur la scène
 
-Organise-les en **grille simple** pour le Level 1 :
-
-Red Red Red Red Red Red Red Red 
-Green Green Green Green Green
-Red Red Red Red Red Red Red Red 
-Green Green Green Green Grren
-
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/niveau1.png" alt="niveau1" width="700"/>
+Organise-les en **grille simple** pour le Level 1 !
 
 #### Pour placer les briques :
 
@@ -20,12 +13,19 @@ Green Green Green Green Grren
 4. Sers- toi de la grile pour un alignement de tes `bricks` parfait !
 5. Répète pour chaque brique
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/grille.png" alt="grille" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/afficher_grille.png" alt="grille" width="300"/>
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/placement_bricks.png" alt="Placement" width="700"/>
 
 
 👉 **Conseil** : Place la première rouge, puis duplique-la 3 fois pour la première ligne, puis change les verts, etc.
+
+### Placer les autres objets
+
+Place également le `Paddle`, à la `Ball` et les `Wall`pour avancer ton niveau.  
+Laisse un espace libre à gauche de la scène, il te servira plus tard pour y ajouter tes scores et autres infos !  
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/niveau1.png" alt="niveau1" width="700"/>
 
 ---
 
