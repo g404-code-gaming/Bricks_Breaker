@@ -159,114 +159,43 @@ Et bien entendu gérer le `sceneScore` !
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/actions_blue_brick_1.png" alt="level2" width="700"/>
 
+ - Si `Ball` touche une seconde fois `Blue_Brick`
+ - Que l'animation de `Blue_Brick` est à `Damaged`
+ - Que la variable `isDamaged`de `Blue_Brick` est à `vrai`
 
- -  
-**Action B** : Checker l'état de isDamaged et agir
-SI Blue_Brick.Variable(isDamaged) = false ALORS :
+Alors tu peux changer **l'animation** de `Blue_Brick` à `End` et gérer la collision suivante de manière classique : `Blue_Brick` est supprimée.  
 
-Mettre isDamaged à true
-Changer l'animation vers "Damaged"
-Ajouter 10 points
-SINON (isDamaged = true) :
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/conditions_bb_damaged.png" alt="level2" width="700"/>
 
-Jouer un son : touch-two.ogg
-Changer l'animation vers "End"
-Ajouter 10 points
-PUIS (après 2e collision) :
+### Collision avec Yellow_Brick
 
-Jouer son : pop.ogg
-Supprimer la brique
-yaml
+Le schéma va être le même avec `Yellow_Brick` sauf qu'il n'y a que deux étapes. Encore plus simple !
 
-#### Implémentation gDevelop :
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/conditions_yb.png" alt="level2" width="700"/>
 
-**Sous-événement 1** : isDamaged = false (première collision)
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/actions_yb_1" alt="level2" width="700"/>
 
-- Condition : `Blue_Brick.Variable(isDamaged) = false`
 
-- Actions :
-  - Modifier variable `isDamaged` = `true`
-  - Cherche **"Animation"** → **"Changer l'animation"**
-    - Objet : `Blue_Brick`
-    - Animation : `Damaged`
-  - Ajouter 10 points à `sceneScore`
-  - Afficher le score : `ToString(Variable(sceneScore))` sur `The_Score`
+## Victoire
 
-**Sous-événement 2** : isDamaged = true (deuxième collision = destruction)
+Les conditions de victoire sont les mêmes que le niveau 1 : casser toutes les `Bricks` ! 
 
-- Condition : `Blue_Brick.Variable(isDamaged) = true`
+La seule différence va être dans ta gestion du score.  
+À la fin du niveau 2, il va te falloir addtionner le score du `level1` et le score de `level2`.  
 
-- Actions :
-  - Jouer son : `touch-two.ogg`
-  - Changer l'animation vers `End`
-  - Attendre 0.1 seconde (optionnel, pour l'effet visuel)
-  - Jouer son : `pop.ogg`
-  - Supprimer l'objet `Blue_Brick`
-  - Ajouter 10 points supplémentaires
-  - Afficher le score mis à jour
+Ta variable *`globalScore`* doit récupérer sa valeur de base et y ajouter la valeur fiale de *`sceneScore`*.
 
-👉 **Résumé** : 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/gestion_score_globaux" alt="level2" width="700"/>
 
-- 1ère collision = animation change, +10 points
-
-- 2ème collision = destruction, +10 points (total 20)
-
----
-
-### 8️⃣ Collision avec Yellow_Brick
-
-**Très similaire à Blue_Brick**, sauf :
-
-**Sous-événement 1** : isDamaged = false (première collision)
-
-- Condition : `Yellow_Brick.Variable(isDamaged) = false`
-
-- Actions :
-  - Modifier variable `isDamaged` = `true`
-  - Changer l'animation vers `Damaged`
-  - Ajouter 8 points
-
-**Sous-événement 2** : isDamaged = true (deuxième collision = destruction)
-
-- Condition : `Yellow_Brick.Variable(isDamaged) = true`
-
-- Actions :
-  - Jouer son : `pop.ogg`
-  - Supprimer l'objet `Yellow_Brick`
-  - Ajouter 7 points supplémentaires
-  - Afficher le score (total 15 points)
-
-👉 **Résumé** : 
-
-- 1ère collision = animation change, +8 points
-
-- 2ème collision = destruction, +7 points (total 15)
-
----
-
-## 📊 Résumé des briques Level2
-
-| Objet | Animations | Variable | Points (total) |
-|-------|-----------|----------|--------|
-| **Blue_Brick** | Full → Damaged → End | `isDamaged` (booléen) | 20 |
-| **Yellow_Brick** | Full → Damaged | `isDamaged` (booléen) | 15 |
-| **Red_Brick** | (aucune) | (aucune) | 5 |
-| **Green_Brick** | (aucune) | (aucune) | 8 |
-
----
 
 ## 🎉 Level 2 Terminé !
 
 Tu as maintenant :
 
 - ✅ Score global récupéré du Level 1
-
 - ✅ Briques complexes avec variables booléennes `isDamaged`
-
 - ✅ Animations d'endommagement (Full → Damaged → End pour Blue)
-
 - ✅ Système de points variables
-
 - ✅ Gestion correcte des collisions multiples
 
-**Prochaine étape** : Level 3 avec timer et descente des briques ! ⏱️👽
+**Prochaine étape** : le Level 3 avec un timer et descente des briques ! ⏱️👽
