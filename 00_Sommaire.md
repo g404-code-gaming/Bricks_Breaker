@@ -1,4 +1,4 @@
-# Brick_Breaker
+# Bricks Breaker
 
 Créer un jeu d'arcade type Brakout.
 
