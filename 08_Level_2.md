@@ -75,77 +75,68 @@ Au démarrage de Level2, récupère le score du Level1 et affiche-le.
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajouter_variable.png" alt="level2" width="300"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/isDamaged.png" alt="level2" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/isDamaged.png" alt="level2" width="700"/>
 
 ---
 
-### 4️⃣ Créer Yellow_Brick (2 animations, 1 variable)
+### Créer Yellow_Brick (2 animations, 1 variable)
 
-#### Étape A : Dupliquer Blue_Brick
+Procède de la même façon pour la `Yellow_Brick`.  
+La seule différence est qu'elle n'a que deux animations au lieu de trois : `Full` et `Damaged` 
 
-1. Clic droit sur **`Blue_Brick`** → **Dupliquer**
-2. Renomme-le : **`Yellow_Brick`** ⚠️
+1. **Ajouter un objet** → **À partir de zéro** → **"Sprite"**
+2. Nomme-le : **`Yellow_Brick`** 
+3. Importe l'image `Yellow_brick_full.png`
+4. Renomme l'animation `Full`
+5. Ajoute une animation
+6. Importe l'image `Yellow_brick_damaged.png`
+7. Renomme l'animation `Damaged`
 
-#### Étape B : Modifier les animations
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/yellow_brick.png" alt="level2" width="300"/>
 
-1. Double-clique sur **`Yellow_Brick`**
-2. Onglet **"Animations"**
+De la même façon également, ajoute-lui la variable `isDamaged`
 
-**Garde** : Animation **`Full`**
-
-- Renomme-la : **`Full`** (garder le nom)
-
-- Change l'image : **`Yellow_brick.png`**
-
-**Garde** : Animation **`Damaged`**
-
-- Nomme-la : **`Damaged`** (garder le nom)
-
-- Change l'image : **`Yellow_brick_damaged.png`**
-
-**Supprime** : Animation **`End`** (Yellow n'a que 2 états)
-
-#### Étape C : Variable d'objet
-
-Garde la même : **`isDamaged`** (booléen, `false`)
+1. Onglet **"Variables de l'objet"**
+2. **Ajouter une variable** :
+   - **Nom** : **`isDamaged`**
+   - **Type** : `Booléen`
+   - **Valeur initiale** : `false`
+     
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/isDamaged.png" alt="level2" width="700"/>
 
 ---
 
-### 5️⃣ Placer les briques sur Level2
+### Placer les briques sur Level2
 
-Structure du Level2 (basée sur le JSON) :
+Place tes `Bricks` sur ton niveau.
 
-
-
-👉 Utilise le JSON comme référence pour les positions exactes (X et Y).
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/placement_level2.png" alt="level2" width="700"/>
 
 ---
 
-### 6️⃣ Mettre à jour les groupes d'objets
+### Mettre à jour les groupes d'objets
+
+Maintenant que nous avons créé deux nouveaux types de `Bricks`, il faut les inclure dans nos groupes d'objets **`Bricks`** et **`Rebond`** que la balle puisse rebondir dessus. 
 
 **Groupe `Bricks`** (ajoute les briques complexes) :
 
 - ✅ `Red_Brick`
-
 - ✅ `Green_Brick`
-
 - ✅ `Blue_Brick` **← NOUVEAU**
-
 - ✅ `Yellow_Brick` **← NOUVEAU**
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/groupe_bricks.png" alt="level2" width="300"/>
 
 **Groupe `Rebond`** (ajoute les briques complexes) :
 
 - ✅ `Paddle`
-
 - ✅ `Red_Brick`
-
 - ✅ `Green_Brick`
-
 - ✅ `Blue_Brick` **← NOUVEAU**
-
 - ✅ `Yellow_Brick` **← NOUVEAU**
-
 - ✅ `Wall`
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/groupe_rebond.png" alt="level2" width="300"/>
 
 ---
 
