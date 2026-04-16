@@ -6,7 +6,7 @@
 
 1. Fais un clic sur **"Propriétés"** en haut à gauche (menu hamburger) de gDevelop
 2. Dans `Scènes`, clique sur les trois petits points en face de **level1** et clique sur **Dupliquer**
-3. Nomme-la nouvelle scène : **`Level2`** ⚠️
+3. Nomme-la nouvelle scène : **`Level2`**
 4. Comme tu as dupliqué le level1, tout est déjà en place pour les objets et une grande partie du code !
 
 ### Initialiser le score global
@@ -24,7 +24,7 @@ Au démarrage de Level2, récupère le score du Level1 et affiche-le.
 - Valeur : `globalScore`
 - Affiche-le dans l'objet texte `The_Score`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/egalite_score.png" alt="Placement" width="700"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/egalite_score.png" alt="level2" width="700"/>
 
 ---
 
@@ -39,9 +39,9 @@ Au démarrage de Level2, récupère le score du Level1 et affiche-le.
 3. Importe l'image `Blue_brick_full.png`
 4. Renomme l'animation `Full`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_importer`_images.png" alt="Placement" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_importer_images.png" alt="level2" width="300"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/full.png" alt="Placement" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/full.png" alt="level2" width="300"/>
 
 #### Étape B : Ajouter les animations
 
@@ -49,29 +49,33 @@ Au démarrage de Level2, récupère le score du Level1 et affiche-le.
 2. Importe l'image `Blue_brick_damaged.png`
 3. Renomme l'animation `Damaged`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_animation.png" alt="Placement" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_animation.png" alt="level2" width="300"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/damaged.png" alt="Placement" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/damaged.png" alt="level2" width="300"/>
 
 5. Clique sur **"Ajouter une animation"**
 6. Importe l'image `Red_brick.png`
 7. Renomme l'animation `End`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/end.png" alt="Placement" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/end.png" alt="level2" width="300"/>
 
 8. Ta brique a désormais trois états :
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/trois_etats.png" alt="Placement" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/trois_etats.png" alt="level2" width="300"/>
 
-#### Étape C : Ajouter la variable d'objet
+#### Étape C : Ajouter la variable d'objet à Blue_Brick
 
 1. Onglet **"Variables de l'objet"**
 2. **Ajouter une variable** :
-   - **Nom** : **`isDamaged`** ⚠️ (booléen, PAS un nombre !)
+   - **Nom** : **`isDamaged`**
    - **Type** : `Booléen`
    - **Valeur initiale** : `false`
 
 👉 **Note** : Cette variable booléenne suit si la brique a été frappée. `false` = intacte, `true` = endommagée au moins une fois.
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajouter_variable.png" alt="level2" width="300"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/isDamaged.png" alt="level2" width="300"/>
 
 ---
 
