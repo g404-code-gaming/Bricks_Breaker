@@ -140,22 +140,9 @@ Maintenant que nous avons créé deux nouveaux types de `Bricks`, il faut les in
 
 ---
 
-## ⚽ Programmer les collisions {#collisions}
+## Programmer les collisions
 
-### 7️⃣ Collision avec Blue_Brick
+### Collision avec Blue_Brick
 
 **Événement** : Balle en collision avec Blue_Brick
 
-1. **Ajouter un événement**
-2. Condition : **"Collision"** → **"Au contact"**
-   - `Ball` + `Blue_Brick`
-
-3. **Actions** :
-
-**Action A** : Jouer un son
-
-- **"Sonore"** → **"Jouer un son"**
-
-- Son : `touch-one.ogg`
-
-**Action B** : Checker l'état de isDamaged et agir
