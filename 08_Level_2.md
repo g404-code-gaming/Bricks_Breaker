@@ -155,9 +155,9 @@ Tu vas devoir gérer les différentes états de `Blue_Brick` pour switcher d'une
 Alors tu peux changer **l'animation** de `Blue_Brick` à `Damaged` et mettre ta **variable** `isDamaged` à `true`.  
 Et bien entendu gérer le `sceneScore` !
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/conditions_bb.png" alt="level2" width="700"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/conditions_blue_brick.png" alt="level2" width="700"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/actions_bb_1.png" alt="level2" width="700"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/actions_blue_brick_1.png" alt="level2" width="700"/>
 
 
  -  
