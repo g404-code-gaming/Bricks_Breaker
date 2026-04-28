@@ -1,6 +1,6 @@
 # Bricks Breaker
 
-Créer un jeu d'arcade type Brakout.
+Créer un jeu d'arcade type Breakout.
 
 ## Histoire
 
