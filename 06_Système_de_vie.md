@@ -41,8 +41,14 @@ Nous allons créer un système de points de vie visuellement cool 😎
 
 **Remarque**
 
-- Test 123
- > - Follow  [testing artifacts](http://2.bp.blogspot.com) (more Unit )
+ > Si tu préfères, tu peux utiliser une classique zone de mort sous la raquette ! Pour cela : 
+ >  - Crée un objet à partir de zéro (`sprite`ou `mosaïque`) avec *Piskel*
+ >  - Avec le pot de peinture, fais un bloc de couleur unie
+>   - Nomme le *Mort*
+>   - Ajoute-le à ta scène sous ta raquette
+>   - Cache le au lancement de la scène
+>
+> Quand `Ball` est en collision avec `Mort`, suis les actions suivantes  
 
 
 **Actions** :
