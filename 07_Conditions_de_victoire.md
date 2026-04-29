@@ -16,7 +16,7 @@ Nous allons utiliser une méthode toute prête de gDevelop **SceneInstancesCount
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/variable_nombre_bricks.png" alt="Victoire" width="600"/>
 
- - Quand le jeu démarre, donne-lui la valeur `SceneInstancesCount(Bricks)` ou `Bricks` représente notre groupe d'objets.
+ - Dans le bloc de code où tu sépares tes objets `Paddle` et `Wall`, donne-lui la valeur `SceneInstancesCount(Bricks)` ou `Bricks` représente notre groupe d'objets.
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/scene_instance.png" alt="Victoire" width="900"/>
 
