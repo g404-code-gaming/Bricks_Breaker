@@ -39,6 +39,12 @@ Nous allons créer un système de points de vie visuellement cool 😎
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/position_ball_y.png" alt="Life" width="400"/>
 
+**Remarque**
+
+- Test 123
+ > - Follow  [testing artifacts](http://2.bp.blogspot.com) (more Unit )
+
+
 **Actions** :
 
 **Action 8.1** : Modifier la variable `GameState` à `"Wait"`. Cela va mettre le jeu en suspens.
