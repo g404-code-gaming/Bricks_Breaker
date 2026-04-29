@@ -57,8 +57,6 @@ D'ailleurs, occupons nous du score !
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_affichage.png" alt="niveau1" width="300"/>
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/niveau1.png" alt="niveau1" width="700"/>
-
 ---
 
 ### Sauvegarder
