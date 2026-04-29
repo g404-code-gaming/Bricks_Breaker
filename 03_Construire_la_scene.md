@@ -55,12 +55,12 @@ D'ailleurs, occupons nous du score !
 - Ajoute-le à la scène à gauche
 - Ajoute un petit objet **Texte** appelé `Text_Score` en plus au-dessus avec marqué *Score*
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_affichage.png" alt="niveau1" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/score_affichage.png" alt="niveau1" width="200"/>
 
 ---
 
 ### Sauvegarder
 
-<img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/19_Sauvegarder.png" alt="Placement des objets" width="300"/>
+<img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/19_Sauvegarder.png" alt="Placement des objets" width="200"/>
 
 Clique maintenant sur l'icône en forme de **disquette** en haut à gauche de ton espace de travail *GDevelop* pour sauvegarder ton projet.
