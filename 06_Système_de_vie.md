@@ -82,6 +82,8 @@ Tu vas utiliser un **sous-événement** pour choisir quel `Life` supprimer.
   - **Condition** : `Life` `=` `2`
   - **Action** : Changer l'**animation** `Life3` et la passer à *Empty*
  
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/life_empty.png" alt="Life" width="800"/>
+ 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/life2_visuel.png" alt="Life" width="400"/>
 
 - **Ajouter un sous-événement** → **"Comparaison"**
