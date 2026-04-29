@@ -76,10 +76,10 @@ Ici, nous allons créer une variable qui va nous permettre de gérer l'état du 
 
 **Action supplémentaire** : Empêcher le Paddle à ne pas dépasser le mur 
 
-   - Condition : la variable `GameState`est ) *NotStarted*
+   - Condition : Aucune, comme cela, l'action aura lieu **tout le temps**
    - Action : **Séparer deux objets** et séparer le `Paddle` du `Wall`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/deplacer_loin.png" alt="Action" width="900"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/separer_objets.png" alt="Action" width="900"/>
 
 
 ---
