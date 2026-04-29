@@ -42,7 +42,7 @@ Le texte est modifié dynamiquement avec des actions du type :
 Modifier le texte de Main_Text
 ```
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/well_done" alt="bricksbreaker" width="500"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/well_done.png" alt="bricksbreaker" width="500"/>
 
 Selon certaines conditions :
 
