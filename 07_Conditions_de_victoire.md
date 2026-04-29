@@ -18,7 +18,7 @@ Nous allons utiliser une méthode toute prête de gDevelop **SceneInstancesCount
 
  - Quand le jeu démarre, donne-lui la valeur `SceneInstancesCount(Bricks)` ou `Bricks` représente notre groupe d'objets.
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/scene__instance.png" alt="Victoire" width="900"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/scene_instance.png" alt="Victoire" width="900"/>
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/scene_instance_detail.png" alt="Victoire" width="400"/>
 
