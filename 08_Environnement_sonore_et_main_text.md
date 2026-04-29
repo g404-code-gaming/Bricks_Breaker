@@ -41,7 +41,8 @@ Le texte est modifié dynamiquement avec des actions du type :
 ```text
 Modifier le texte de Main_Text
 ```
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/well_done" alt="Connexion" width="500"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/well_done" alt="bricksbreaker" width="500"/>
 
 Selon certaines conditions :
 
@@ -50,7 +51,7 @@ Selon certaines conditions :
   - défaite
   - attente avant relance
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/game_over_png" alt="Connexion" width="500"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/game_over_txt.png" alt="bricksbreaker" width="500"/>
 
 ## Visibilité pendant le jeu
 
@@ -59,4 +60,4 @@ Selon certaines conditions :
  - être visible lors des étapes importantes
  - être caché pendant le gameplay normal
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/cacher_main_text_png" alt="Connexion" width="800"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/cacher_main_text.png" alt="bricksbreaker" width="800"/>
