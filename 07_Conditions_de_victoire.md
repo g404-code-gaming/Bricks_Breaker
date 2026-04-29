@@ -78,7 +78,3 @@ Voici à quoi pourra ressembler ton bloc complet de victoire :
 <img src="https://sebastien-devos.fr/img/codegaming/atelier-decouverte/19_Sauvegarder.png" alt="Placement des objets" width="200"/>
 
 Clique maintenant sur l'icône en forme de **disquette** en haut à gauche de ton espace de travail *GDevelop* pour sauvegarder ton projet.
-
----
-
-**Ajoutons du son et des intéractions textuelles**
