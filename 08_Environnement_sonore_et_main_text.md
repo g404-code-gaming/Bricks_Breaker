@@ -60,5 +60,5 @@ Selon certaines conditions :
  - être visible lors des étapes importantes
  - être caché pendant le gameplay normal
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/cacher_main_text.png" alt="bricksbreaker" width="800"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/cacher_main_text.png" alt="bricksbreaker" width="900"/>
 
