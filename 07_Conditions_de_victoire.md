@@ -81,4 +81,4 @@ Clique maintenant sur l'icône en forme de **disquette** en haut à gauche de to
 
 ---
 
-**Direction le niveau 2**
+**Ajoutons du son et des intéractions textuelles**
