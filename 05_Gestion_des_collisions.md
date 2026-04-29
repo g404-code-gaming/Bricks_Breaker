@@ -160,8 +160,7 @@ Même chose que l'événement 2, mais :
 
    **Action 6.2** : Supprimer la brique
    - Cherche **"Objet"** → **"Supprimer l'objet"**
-   - Objet : `Red_Brick`
-   - Objet : `Green_Brick`
+   - Groupe d'objets : `Bricks`
 
    **Action 6.3** : Ajouter 5 points
    - Cherche **"Variables"** → **"Modifier une variable de scène"**
@@ -174,7 +173,7 @@ Même chose que l'événement 2, mais :
    - Objet : `The_Score`
    - Texte : `ToString(Variable(sceneScore))`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/collision_bricks.png" alt="Action" width="900"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/supprimer_bricks.png" alt="Action" width="900"/>
 
 ---
 
