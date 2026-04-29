@@ -99,5 +99,3 @@ Tu vas utiliser un **sous-événement** pour choisir quel `Life` supprimer.
       - Supprimer les objets `Paddle` et `Ball`
       - Attendre `1s`
       - Relancer la scène
-   
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/game_over.png" alt="Life" width="400"/>
