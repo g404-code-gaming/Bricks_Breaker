@@ -69,7 +69,7 @@ Let's go ! Nous pouvons aller au **level 2** !
 
 Voici à quoi pourra ressembler ton bloc complet de victoire :
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bloc_victoire.png" alt="Victoire" width="900"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/fin_level_1.png" alt="Victoire" width="900"/>
 
 ---
 
