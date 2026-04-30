@@ -57,7 +57,7 @@ Modifie le groupe d'objets :
 - Wall
 - **Grey_brick** ← NOUVEAU
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajouter_grey_brick_rebond.png" alt="level4" width="400" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajouter_grey_brick_rebond.png" alt="level4" width="600" />
 
 ### Placer Grey_brick sur la scène
 
@@ -99,7 +99,6 @@ Le `Power_Up` n'a pas besoin de variables spéciales pour Level 4 - c'est juste 
 
 Cette modification va permettre de placer très précisemment les projectiles lorsque le `Paddle` fera feu. 
 
-
 ---
 
 ## 🔥 Configurer le Paddle avec Fire {#paddle-fire}
@@ -135,14 +134,9 @@ Ajoute une variable d'objet au Paddle :
 2. Section **"Comportements"**
 3. **Ajouter un comportement**
 4. Cherche : **"Fire Bullets"** (comportement officiel gDevelop)
-5. Configure :
-   - **Cadence de tir** : `0.1` secondes (tir rapide)
-   - **Objet projectile** : `Bullet`
-   - **Direction** : `-90` (vers le haut)
-   - **Vitesse** : `400` pixels/sec
-   - **Groupe d'objets pour les balles** : `Bullets`
-   - **Angle du projectile** : `-90`
-   - **Rythme d'animation** : Optionnel
+5. Configure le **Firing cooldown** à 1 seconde
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/comportement_fire_bullets.png" alt="level4" width="800" />
 
 ---
 
