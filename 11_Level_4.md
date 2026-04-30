@@ -67,9 +67,11 @@ Place 3 ou 4 instances de **Grey_brick** stratégiquement (ex : milieu-bas, pour
 
 ---
 
-## 🎁 Créer le Power_Up {#powerup}
+## 🎁 Créer le Power_Up
 
 ### Créer l'objet PowerUp
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_power_up.png" alt="level4" width="600" />
 
 1. **Ajouter un objet** → **"Magasin de ressources"**
 2. Cherche l'objet : **`Power_Up`** 
@@ -81,26 +83,22 @@ Le `Power_Up` n'a pas besoin de variables spéciales pour Level 4 - c'est juste 
 
 ---
 
-## 🔫 Créer les Bullets {#bullets}
+## 🔫 Créer les Bullets
 
 ### Créer l'objet Bullet
 
-1. **Ajouter un objet** → **"Sprite"**
-2. Nomme-le : **`Bullet`** ⚠️
-3. Sélectionne l'image : **"Bullet.png"**
-4. Ajoute une animation nommée par défaut
-5. Ajoute le comportement **"Physique 2D"** :
-   - **Type** : `Dynamique`
-   - **Gravité appliquée** : `Non`
-   - **Élasticité** : `0` (pas de rebond)
-   - **Friction** : `0`
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_bullet.png" alt="level4" width="600" />
 
-### Créer le groupe Bullets
+1. **Ajouter un objet** → **"Magsin de ressources"**
+2. Cherche l'objet : **`Bullet`** 
+3. Ajoute-le à la scène
+4. Doucle-clique dessus et clique sur *Modifier les points*
+5. Prends le point **Origin** et place-le aux mêmes coordonnées que le point **Center**
 
-1. Onglet **"Groupes d'objets"** de Level4
-2. **Ajouter un groupe**
-3. Nomme-le : **`Bullets`** ⚠️
-4. Ajoute : `Bullet`
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/modifier_points_bullet.png" alt="level4" width="600" />
+
+Cette modification va permettre de placer très précisemment les projectiles lorsque le `Paddle` fera feu. 
+
 
 ---
 
@@ -111,26 +109,23 @@ Le `Power_Up` n'a pas besoin de variables spéciales pour Level 4 - c'est juste 
 Le Paddle doit avoir **2 animations** :
 
 1. Double-clique sur l'objet **`Paddle`** (dans la liste des objets)
-2. Onglet **"Animations"**
+2. Onglet **"Propriétés"**
+3. **Ajouter une animation** → Nomme-la **`Fire`**
+4. Sélectionne l'image : **"assets/paddle-fire.png"**
 
-Vérifie qu'il a :
-- Animation 1 : **`""`** (nom vide = animation normale, avec image "Paddle.png")
-- Animation 2 : **`Fire`** (avec image "assets/paddle-fire.png")
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/animation_paddle_fire.png" alt="level4" width="600" />
 
-Si l'animation Fire n'existe pas, crée-la :
-1. **Ajouter une animation** → Nomme-la **`Fire`** ⚠️
-2. Sélectionne l'image : **"assets/paddle-fire.png"**
-
-### Variables du Paddle
+### Modifier les points du Paddle
 
 Ajoute une variable d'objet au Paddle :
 
 1. Double-clique sur l'objet **`Paddle`**
-2. Onglet **"Variables de l'objet"**
-3. Ajoute une variable :
-   - **Nom** : **`fireTimer`** ⚠️
-   - **Type** : `Nombre`
-   - **Valeur initiale** : `0`
+2. Clique sur *Modifier les points*
+3. Ajoute deux nouveaux points, `Fire1` et `Fire2` placés à gauche et droite au `Paddle`, au centre des extrémités
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/points_paddle_fire_base.png" alt="level4" width="800" />
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/points_ajoutes.png" alt="level4" width="600" />
 
 ### Ajouter le comportement Fire Bullets
 
