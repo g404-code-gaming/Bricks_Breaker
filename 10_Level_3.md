@@ -72,7 +72,7 @@ Toutes les 10 secondes, tu vas déplacer le groupe de `Bricks` de 20px en direct
  - Changer la position Y de `Bricks` : ajouter 20px
  - Réinitialiser le chronomètre `BrickDropTimer`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/10_secondes.png" alt="level2" width="600"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/10_secondes.png" alt="level2" width="900"/>
 
 ---
 
@@ -94,7 +94,7 @@ Pour cela, surveille la position Y de ton groupe `Bricks` !
   - Change le texte de **Main_Text** à `Game Over` *si tu l'as créé à l'étape 8*
   - Relance le niveau !
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/code_bricks_basses.png" alt="level2" width="600"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/code_bricks_basses.png" alt="level2" width="900"/>
 
 ---
 
