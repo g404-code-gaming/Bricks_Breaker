@@ -111,6 +111,7 @@ Le Paddle doit avoir **2 animations** :
 2. Onglet **"Propriétés"**
 3. **Ajouter une animation** → Nomme-la **`Fire`**
 4. Sélectionne l'image : **"assets/paddle-fire.png"**
+5. Profites-en pour appeler l'animation de base `Base`
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/animation_paddle_fire.png" alt="level4" width="400" />
 
@@ -201,21 +202,21 @@ Ajoute une variable d'objet au Paddle :
 
 ---
 
-### Événement C : `Paddle`peut tirer
+### Événement C : `Paddle` peut tirer
 
-**Condition** : Paddle.Variable(fireTimer) < 10 (le pouvoir est actif)
+**Conditions** : 
+ - l'animation de `Paddle` est sur *Fire*
+ - la touche `Space` est appuyée
 
-**Actions** :
+**Actions** : Tirer depuis `Fire1`
+- Cherche **Tirer des balles vers un angle** 
+- Objet balle : `Bullet`
+- Position X : `Paddle.PointX("Fire1")`
+- Position Y : ``Paddle.Point`Y("Fire1")`
+- Angle : 270 (vers le haut)
+- Vitesse : 150
 
-**Action B.1** : Incrémenter fireTimer
-- Cherche **"Variables de l'objet"** → **"Modifier la variable d'objet"**
-- Objet : `Paddle`
-- Variable : `fireTimer`
-- Opération : `+`
-- Valeur : `dt` ou `TimeDelta()` (pour avancer d'une frame)
-
-Ou plus simplement :
-- Valeur : `0.016` (= 1 frame à 60 FPS)
+**Fais la même chose pour `Fire2`**
 
  <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_fire.png" alt="level4" width="900" />
 
@@ -223,14 +224,12 @@ Ou plus simplement :
 
 ### Événement D : Fin du pouvoir
 
-**Condition** : Paddle.Variable(fireTimer) >= 10
+**Condition** : le chronomètre *Fire* de `Paddle` >= 10
 
-**Actions** :
-
-**Action C.1** : Revenir à l'animation normale
+**Action** : Revenir à l'animation normale
 - Cherche **"Animation"** → **"Changer l'animation"**
 - Objet : `Paddle`
-- Animation : `""` (vide = animation par défaut)
+- Animation : `Base`
 
  <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/retour_normal_paddle.png" alt="level4" width="900" />
  
