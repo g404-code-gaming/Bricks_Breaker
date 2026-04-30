@@ -259,7 +259,7 @@ Par exemple :
 
 **Action F.1** : Détruire le Power_Up
 - Cherche **"Objet"** → **"Supprimer l'objet"**
-- Objet : `PowerUp`
+- Objet : `Power_Up`
 
 ---
 
