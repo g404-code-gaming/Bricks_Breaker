@@ -7,15 +7,13 @@ Certaines `Bricks` vont te permettre de libérer un boost qui va transformer ton
 
 ## 🎯 Introduction Level 4
 
-**Level 4** est identique à **Level 2** + une **mécanique de power-up** :
-
-✅ Même layout, mêmes briques (Red, Green, Blue, Yellow)
-✅ 1 nouvelle brick : **Grey_brick** qui lâche un **PowerUp**
-✅ Quand le Paddle attrape le PowerUp :
-- Animation du Paddle change (version avec feu)
-- Peut tirer des **Bullets** vers le haut pendant **10 secondes**
-- Tire avec un **cooldown** entre les tirs
-- Après 10 sec, le Paddle revient normal
+Ce qui change : 
+✅ une nouvelle brick : **Grey_brick** qui lâche un **Power_Up**  
+✅ quand le `Paddle` attrape le `Power_Up` :  
+   - l'animation du `Paddle` change
+   - il peut tirer des **Bullets** vers le haut pendant **10 secondes**
+   - il tire avec un **cooldown** entre les tirs
+   - après 10 secondes, le `Paddle` revient à sa forme normale
 
 ---
 
@@ -25,7 +23,6 @@ Duplique **Level2** pour créer **Level4** :
 
 1. Fais un clic droit sur **Level2** → **Dupliquer**
 2. Renomme le layout dupliqué : **Level4** 
-3. Modifie l'événement de victoire du Level2 : au lieu d'aller à "Level4", qu'il aille à une prochaine scène
 
 ---
 
