@@ -81,6 +81,8 @@ Toutes les 10 secondes, tu vas déplacer le groupe de `Bricks` de 20px en direct
 Si les `Bricks` sont trop basses et que le joueur n'a pas réussi à tout détruire, alors nous allons ajouter une nouvelle condition de défaite !  
 Pour cela, surveille la position Y de ton groupe `Bricks` !
 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/position_y_bricks.png" alt="level2" width="500"/>
+
 #### Condition
 
   - Si la position Y de `Bricks` >= 500 *(par exemple, la coordonnée peut être différente)*
