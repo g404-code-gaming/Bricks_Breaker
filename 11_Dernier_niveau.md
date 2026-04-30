@@ -36,13 +36,13 @@ Duplique **Level2** pour créer **Level4** :
 2. Nomme-le : **`Grey_brick`** ⚠️
 3. Importe l'image : **"assets/Grey_brick.png"**
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_importer_images.png" alt="level2" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_importer_images.png" alt="level4" width="400" />
 
-4. Ajoute une animation (par défaut une seule) nommée par défaut 'Base'
+4. Ajoute une animation (par défaut une seule) nommée par défaut `Base`
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/grey_brick_detail.png" alt="level2" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/grey_brick_detail.png" alt="level4" width="400" />
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/grey_brick.png" alt="level2" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/grey_brick.png" alt="level4" width="400" />
 
 ### Ajouter Grey_brick au groupe Rebond
 
@@ -56,6 +56,8 @@ Modifie le groupe d'objets :
 - Yellow_Brick
 - Wall
 - **Grey_brick** ← NOUVEAU
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajouter_grey_brick_rebond.png" alt="level4" width="400" />
 
 ### Placer Grey_brick sur la scène
 
