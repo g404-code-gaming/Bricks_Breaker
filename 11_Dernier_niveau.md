@@ -7,8 +7,8 @@ Certaines `Bricks` vont te permettre de libérer un boost qui va transformer ton
 
 ## 🎯 Introduction Level 4
 
-Ce qui change : 
-✅ une nouvelle brick : **Grey_brick** qui lâche un **Power_Up**  
+Ce qui change :  
+✅ une nouvelle brick : **Grey_brick** qui lâche un **Power_Up**   
 ✅ quand le `Paddle` attrape le `Power_Up` :  
    - l'animation du `Paddle` change
    - il peut tirer des **Bullets** vers le haut pendant **10 secondes**
