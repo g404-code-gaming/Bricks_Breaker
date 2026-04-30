@@ -276,3 +276,5 @@ Par exemple :
 | **Score Grey_brick** | +25 points pour casser la Grey_brick |
 
 ---
+
+**Direction le Level 5, dernier niveau du jeu !**
