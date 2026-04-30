@@ -81,12 +81,12 @@ Pour cela, surveille la position Y de ton groupe `Bricks` !
 
 #### Actions
 
-  - Change l'animation de `Life1`, 'Life2`, Life3` à `Empty`
+  - Change l'animation de `Life1`, `Life2`, `Life3` à `Empty` pour bien signifier que la partie est perdue
   - Supprime le `Paddle`
   - Supprime la `Ball`
   - Joue un son de mort *si tu en as un*
   - Change le texte de **Main_Text** à `Game Over` *si tu l'as créé à l'étape 8*
-  - Relande le niveau !
+  - Relance le niveau !
 
 ---
 
