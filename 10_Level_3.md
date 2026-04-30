@@ -114,3 +114,6 @@ Le Level 3 doit créer une pression progressive :
 
  - plus le temps passe
  - plus les briques se rapprochent du joueur
+
+Si tu vois que le niveau 3 est trop simple, ajoute quelques `Bricks` !  
+Ou fais descendre tes `Bricks` plus vite !
