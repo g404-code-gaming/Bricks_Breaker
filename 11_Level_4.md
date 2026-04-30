@@ -101,7 +101,7 @@ Cette modification va permettre de placer très précisemment les projectiles lo
 
 ---
 
-## 🔥 Configurer le Paddle avec Fire {#paddle-fire}
+## 🔥 Configurer le Paddle avec Fire
 
 ### Ajouter l'animation Fire au Paddle
 
@@ -112,7 +112,7 @@ Le Paddle doit avoir **2 animations** :
 3. **Ajouter une animation** → Nomme-la **`Fire`**
 4. Sélectionne l'image : **"assets/paddle-fire.png"**
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/animation_paddle_fire.png" alt="level4" width="600" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/animation_paddle_fire.png" alt="level4" width="400" />
 
 ### Modifier les points du Paddle
 
@@ -126,7 +126,7 @@ Ajoute une variable d'objet au Paddle :
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajout_points_bullet.png" alt="level4" width="800" />
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/points_ajoutes.png" alt="level4" width="500" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/points_ajoutes.png" alt="level4" width="400" />
 
 ### Ajouter le comportement Fire Bullets
 
@@ -136,45 +136,72 @@ Ajoute une variable d'objet au Paddle :
 4. Cherche : **"Fire Bullets"** (comportement officiel gDevelop)
 5. Configure le **Firing cooldown** à 1 seconde
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/comportement_fire_bullets.png" alt="level4" width="800" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/comportement_fire_bullets.png" alt="level4" width="900" />
 
 ---
 
-## ⚙️ Programmer les événements {#events}
+## ⚙️ Programmer les événements 
 
-### Événement A : Collision PowerUp + Paddle
+### Événement A : Collision entre `Grey_brick` + `Ball`
+
+**Condition** : Ball en collision avec Grey_brick
+
+**Actions** :
+
+**Action A.1** : Détruire Grey_brick
+- Cherche **"Objet"** → **"Supprimer l'objet"**
+- Objet : `Grey_brick`
+
+**Action A.2** : Créer une instance Power_Up
+- Cherche **"Créer un objet"**
+- Objet : `Power_Up`
+- X : `Grey_brick.CenterX()`
+- Y : `Grey_brick.CenterY()`
+
+**Action A.3** : Envoyer Power_Up vers le joueur
+- **Appliquer une force** permanente 
+- Objet : `Power_Up`
+- Axe X : 0
+- Axe Y : 100
+
+**Action A.4** : Ajouter des points pour la destruction
+- Cherche **"Variables de scène"** → **"Modifier une variable de scène"**
+- Variable : `sceneScore`
+- Opération : `+`
+- Valeur : `25` (Grey_brick vaut plus cher)
+
+**Action A.5** : Mettre à jour l'affichage
+- Cherche **"Texte"** → **"Modifier le texte"**
+- Objet : `The_Score`
+- Texte : `ToString(Variable(sceneScore))`
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/collision_ball_grey_brick.png" alt="level4" width="900" />
+
+### Événement B : Collision PowerUp + Paddle
 
 **Condition** : PowerUp en collision avec Paddle
 
 **Actions** :
 
-**Action A.1** : Changer l'animation du Paddle
+**Action B.1** : Détruire le Power_Up
+- Cherche **"Objet"** → **"Supprimer l'objet"**
+- Objet : `Power_Up`
+
+**Action B.2** : Changer l'animation du Paddle
 - Cherche **"Animation"** → **"Changer l'animation"**
 - Objet : `Paddle`
 - Animation : `Fire`
 
-**Action A.2** : Démarrer fireTimer
-- Cherche **"Variables de l'objet"** → **"Modifier la variable d'objet"**
+**Action B.3** : Démarrer un chronomètre d'objet
+- Cherche **Démarrer le chronomètre d'un objet**
 - Objet : `Paddle`
-- Variable : `fireTimer`
-- Opération : `=`
-- Valeur : `0` (réinitialiser)
+- Variable : `Fire`
 
-**Action A.3** : Activer Fire Bullets
-- Cherche **"Fire Bullets"** → **"Activer le tir"**
-- Objet : `Paddle`
-
-**Action A.4** : Jouer un son
-- Cherche **"Sonore"** → **"Jouer un son"**
-- Son : `beep.ogg` (ou `life.ogg`)
-
-**Action A.5** : Détruire le PowerUp
-- Cherche **"Objet"** → **"Supprimer l'objet"**
-- Objet : `PowerUp`
+ <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/collision_power_paddle.png" alt="level4" width="900" />
 
 ---
 
-### Événement B : Gérer le timer du Paddle
+### Événement C : `Paddle`peut tirer
 
 **Condition** : Paddle.Variable(fireTimer) < 10 (le pouvoir est actif)
 
@@ -190,9 +217,11 @@ Ajoute une variable d'objet au Paddle :
 Ou plus simplement :
 - Valeur : `0.016` (= 1 frame à 60 FPS)
 
+ <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_fire.png" alt="level4" width="900" />
+
 ---
 
-### Événement C : Fin du pouvoir
+### Événement D : Fin du pouvoir
 
 **Condition** : Paddle.Variable(fireTimer) >= 10
 
@@ -203,20 +232,11 @@ Ou plus simplement :
 - Objet : `Paddle`
 - Animation : `""` (vide = animation par défaut)
 
-**Action C.2** : Désactiver Fire Bullets
-- Cherche **"Fire Bullets"** → **"Désactiver le tir"**
-- Objet : `Paddle`
-
-**Action C.3** : Réinitialiser fireTimer
-- Cherche **"Variables de l'objet"** → **"Modifier la variable d'objet"**
-- Objet : `Paddle`
-- Variable : `fireTimer`
-- Opération : `=`
-- Valeur : `-1` (ou `11` pour marquer comme terminé)
-
+ <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/retour_normal_paddle.png" alt="level4" width="900" />
+ 
 ---
 
-### Événement D : Bullet en collision avec Bricks
+### Événement E : Bullet en collision avec Bricks
 
 **Condition** : Bullet en collision avec groupe `Bricks`
 
@@ -254,39 +274,6 @@ Ou plus simplement :
 - Objet : `PowerUp`
 
 👉 Cet événement évite que le PowerUp reste bloqué en bas et affecte les collisions.
-
----
-
-### Événement F : Collision Grey_brick + Ball (destruction)
-
-**Condition** : Ball en collision avec Grey_brick
-
-**Actions** :
-
-**Action F.1** : Jouer un son
-- Cherche **"Sonore"** → **"Jouer un son"**
-- Son : `touch-one.ogg`
-
-**Action F.2** : Détruire Grey_brick
-- Cherche **"Objet"** → **"Supprimer l'objet"**
-- Objet : `Grey_brick`
-
-**Action F.3** : Créer une instance PowerUp
-- Cherche **"Objet"** → **"Créer un objet"**
-- Objet : `PowerUp`
-- X : `Grey_brick.X()`
-- Y : `Grey_brick.Y()`
-
-**Action F.4** : Ajouter des points pour la destruction
-- Cherche **"Variables de scène"** → **"Modifier une variable de scène"**
-- Variable : `sceneScore`
-- Opération : `+`
-- Valeur : `50` (Grey_brick vaut plus cher)
-
-**Action F.5** : Mettre à jour l'affichage
-- Cherche **"Texte"** → **"Modifier le texte"**
-- Objet : `The_Score`
-- Texte : `ToString(Variable(sceneScore))`
 
 ---
 
