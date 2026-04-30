@@ -237,9 +237,9 @@ Ajoute une variable d'objet au Paddle :
 
 ---
 
-### Événement E : Bullet en collision avec Bricks
+### Événement E : Bullet en collision avec les `Bricks`
 
-Pour les collisions entre `Bullet` et les différentes `Bricks` (*red*, *yellow*, *green*, *blue*), tu peux reprendre à peu de chose prêt le code des collisions de `Ball' avec les différentes `Bricks`
+Pour les collisions entre `Bullet` et les différentes `Bricks` (*red*, *yellow*, *green*, *blue*), tu peux reprendre à peu de chose prêt le code des collisions de `Ball` avec les différentes `Bricks`
 
 La différence :
  - Pense à supprimer `Bullet` à la collision !
