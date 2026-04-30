@@ -255,9 +255,7 @@ Par exemple :
 
 **Condition** : La position Y de `Power_Up` > 600
 
-**Actions** :
-
-**Action F.1** : Détruire le Power_Up
+**Actions** : Détruire le Power_Up
 - Cherche **"Objet"** → **"Supprimer l'objet"**
 - Objet : `Power_Up`
 
