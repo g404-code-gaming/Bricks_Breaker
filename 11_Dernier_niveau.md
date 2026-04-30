@@ -17,23 +17,32 @@ Ce qui change :
 
 ---
 
-## 🚀 Créer la scène Level4 {#level4}
+## 🚀 Créer la scène Level4
 
 Duplique **Level2** pour créer **Level4** :
 
 1. Fais un clic droit sur **Level2** → **Dupliquer**
 2. Renomme le layout dupliqué : **Level4** 
 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/level_4.png" alt="level2" width="400"/>
+
 ---
 
-## 🧱 Ajouter Grey_brick {#grey-brick}
+## 🧱 Ajouter Grey_brick
 
 ### Créer l'objet Grey_brick
 
 1. **Ajouter un objet** → **"Sprite"**
 2. Nomme-le : **`Grey_brick`** ⚠️
-3. Sélectionne l'image : **"assets/Grey_brick.png"**
-4. Ajoute une animation (par défaut une seule) nommée par défaut
+3. Importe l'image : **"assets/Grey_brick.png"**
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/bouton_importer_images.png" alt="level2" width="400"/>
+
+4. Ajoute une animation (par défaut une seule) nommée par défaut 'Base'
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/grey_brick_detail.png" alt="level2" width="400"/>
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/grey_brick.png" alt="level2" width="400"/>
 
 ### Ajouter Grey_brick au groupe Rebond
 
