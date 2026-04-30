@@ -13,6 +13,8 @@ Crée le `Level3` à partir du `Level2` afin de conserver :
 
 Le Level 3 est une évolution directe du niveau précédent.
 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajout_scene3.png" alt="level2" width="400"/>
+
 ---
 
 ## 2. Modifie le layout des bricks
@@ -53,12 +55,13 @@ Privilégie :
 Dans le bloc de code de départ `Au lancement du niveau`, ajoute une nouvelle action : **Démarrer (ou réinitialiser) un chronomètre de scène**.  
 Appelle le `BrickDropTimer`.  
 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/lancer_chrono.png" alt="level2" width="600"/>
+
 ---
 
 ## 4. Faire descendre les bricks
 
 Toutes les 10 secondes, tu vas déplacer le groupe de `Bricks` de 20px en direction du joueur.
-
 
 #### Condition
  - Chronomètre `BrickDropTimer` >= 10 secondes
@@ -67,6 +70,8 @@ Toutes les 10 secondes, tu vas déplacer le groupe de `Bricks` de 20px en direct
 
  - Changer la position Y de `Bricks` : ajouter 20px
  - Réinitialiser le chronomètre `BrickDropTimer`
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/10_secondes.png" alt="level2" width="600"/>
 
 ---
 
@@ -88,15 +93,17 @@ Pour cela, surveille la position Y de ton groupe `Bricks` !
   - Change le texte de **Main_Text** à `Game Over` *si tu l'as créé à l'étape 8*
   - Relance le niveau !
 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/code_bricks_basses.png" alt="level2" width="600"/>
+
 ---
 
 ## 6. Fin du niveau
 
-Quand toutes les briques sont détruites, n'oublie pas de :
+Quand toutes les briques sont détruites, n'oublie pas :
 
- - arrêter le chronomètre de scène
- - gérer le score comme d'habitude (comme tu as dupliqué le level 2, cela devrait déjà être bon)
- - envoyer direction le dernier niveau, le `level 4`
+ - d'arrêter le chronomètre de scène
+ - de gérer le score comme d'habitude (comme tu as dupliqué le level 2, cela devrait déjà être bon)
+ - d'aller au dernier niveau, le `level 4`
 
 ### Important
 
