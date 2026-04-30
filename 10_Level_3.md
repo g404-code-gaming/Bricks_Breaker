@@ -11,9 +11,10 @@ Crée le `Level3` à partir du `Level2` afin de conserver :
 - les comportements des briques
 - les événements existants
 
-Le Level 3 est une évolution directe du niveau précédent.
+Le Level 3 est une évolution directe du niveau précédent.  
+Clique donc sur les trois petits points en face de la scène `Level2` et clique sur **Dupliquer**. 
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajout_scene3.png" alt="level2" width="400"/>
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/trois_niveaux.png" alt="level2" width="400"/>
 
 ---
 
