@@ -1,13 +1,14 @@
 # 🎮 Bricks Breaker - Level 5 : À toi de créer !
 
 ## 🎯 Objectif
-Tu as dominé les 4 premiers niveaux ! 🏆 C'est maintenant à TON tour d'inventer le Level 5.
+Tu as dominé les 4 premiers niveaux ! 🏆   
+C'est maintenant à TON tour d'inventer le Level 5.
 
 Ce niveau est une sandbox créative où tu vas :
 
-✨ Imaginer tes propres power-ups ou mécaniques
-🎨 Les implémenter dans gDevelop
-🏁 Créer un écran de fin pour ton jeu
+✨ Imaginer tes propres power-ups ou mécaniques  
+🎨 Les implémenter dans gDevelop  
+🏁 Créer un écran de fin pour ton jeu  
 
 ## 💡 Quelques idées pour vous inspirer
 
