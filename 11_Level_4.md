@@ -69,7 +69,7 @@ Place 3 ou 4 instances de **Grey_brick** stratégiquement (ex : milieu-bas, pour
 
 ## 🎁 Créer le Power_Up
 
-### Créer l'objet PowerUp
+### Créer l'objet Power_Up
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_power_up.png" alt="level4" width="800" />
 
@@ -198,7 +198,7 @@ Ajoute une variable d'objet au Paddle :
 - Objet : `Paddle`
 - Variable : `Fire`
 
- <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/collision_power_paddle.png" alt="level4" width="900" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/collision_power_paddle.png" alt="level4" width="900" />
 
 ---
 
@@ -218,7 +218,7 @@ Ajoute une variable d'objet au Paddle :
 
 **Fais la même chose pour `Fire2`**
 
- <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_fire.png" alt="level4" width="900" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/paddle_fire.png" alt="level4" width="900" />
 
 ---
 
@@ -231,52 +231,39 @@ Ajoute une variable d'objet au Paddle :
 - Objet : `Paddle`
 - Animation : `Base`
 
- <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/retour_normal_paddle.png" alt="level4" width="900" />
- 
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/retour_normal_paddle.png" alt="level4" width="900" />
+
+`Paddle` revenant à sa forme initiale, il ne peut plus tier, puis le tir était actif que lorsque son animation était sur *Fire*
+
 ---
 
 ### Événement E : Bullet en collision avec Bricks
 
-**Condition** : Bullet en collision avec groupe `Bricks`
+Pour les collisions entre `Bullet` et les différentes `Bricks` (*red*, *yellow*, *green*, *blue*), tu peux reprendre à peu de chose prêt le code des collisions de `Ball' avec les différentes `Bricks`
 
-**Actions** :
+La différence :
+ - Pense à supprimer `Bullet` à la collision !
 
-**Action D.1** : Détruire la brique
-- Cherche **"Objet"** → **"Supprimer l'objet"**
-- Objet : `Red_Brick` (ou selon la collision)
+Par exemple : 
 
-**Action D.2** : Détruire la bullet
-- Cherche **"Objet"** → **"Supprimer l'objet"**
-- Objet : `Bullet`
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/collision_bullet_bricks.png" alt="level4" width="900" />
 
-**Action D.3** : Ajouter des points
-- Cherche **"Variables de scène"** → **"Modifier une variable de scène"**
-- Variable : `sceneScore`
-- Opération : `+`
-- Valeur : `3` (les bullets donnent moins que la balle)
-
-**Action D.4** : Mettre à jour l'affichage du score
-- Cherche **"Texte"** → **"Modifier le texte"**
-- Objet : `The_Score`
-- Texte : `ToString(Variable(sceneScore))`
 
 ---
 
-### Événement E : PowerUp tombe hors écran
+### Événement F : Power_Up tombe hors écran
 
-**Condition** : PowerUp.Y > 600
+**Condition** : La position Y de `Power_Up` > 600
 
 **Actions** :
 
-**Action E.1** : Détruire le PowerUp
+**Action F.1** : Détruire le Power_Up
 - Cherche **"Objet"** → **"Supprimer l'objet"**
 - Objet : `PowerUp`
 
-👉 Cet événement évite que le PowerUp reste bloqué en bas et affecte les collisions.
-
 ---
 
-## 🧪 Test du niveau {#test}
+## 🧪 Test du niveau
 
 ### Checklist de test :
 
@@ -284,40 +271,10 @@ Ajoute une variable d'objet au Paddle :
 |---|---|
 | **Bullets** | S'affichent quand le Paddle a le PowerUp |
 | **Destruction Bricks par Bullets** | Briques disparaissent quand touchées par bullet |
-| **Points Bullets** | +3 points par brick détruit par bullet |
 | **PowerUp drop** | Lâché quand Grey_brick est cassée |
 | **Paddle animation Fire** | Change de sprite quand PowerUp attrapé |
 | **FireTimer 10 sec** | Paddle revient normal après 10 secondes |
 | **Fin du pouvoir** | Bullets s'arrêtent après 10 sec |
-| **Score Grey_brick** | +50 points pour casser la Grey_brick |
-| **Victoire** | Passe au niveau suivant quand 0 briques |
+| **Score Grey_brick** | +25 points pour casser la Grey_brick |
 
 ---
-
-## 📚 Résumé Level 4
-
-### Nouveaux objets :
-- **`Grey_brick`** : Brique grise qui lâche un PowerUp
-- **`PowerUp`** : Item qui tombe du Grey_brick
-- **`Bullet`** : Projectile tiré par le Paddle
-
-### Nouvelle animation Paddle :
-- **`Fire`** : Sprite du Paddle avec des flammes
-
-### Nouvelles variables :
-- **`Paddle.fireTimer`** : Compte à rebours du pouvoir (0-10 sec)
-
-### Nouveaux comportements :
-- **`Paddle` + Fire Bullets** : Permet de tirer des projectiles
-
-### Points :
-- Red_Brick : 5
-- Green_Brick : 5
-- Blue_Brick : 20 (total)
-- Yellow_Brick : 15 (total)
-- **Grey_brick : 50** ← Nouveau
-- **Bullet hit : 3 points** ← Nouveau
-
----
-
-Voilà les consignes complètes pour **Level 4** ! 🔥🎮
