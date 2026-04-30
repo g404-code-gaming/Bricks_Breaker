@@ -267,13 +267,14 @@ Par exemple :
 
 | Fonctionnalité | À tester |
 |---|---|
-| **Bullets** | S'affichent quand le Paddle a le PowerUp |
-| **Destruction Bricks par Bullets** | Briques disparaissent quand touchées par bullet |
-| **PowerUp drop** | Lâché quand Grey_brick est cassée |
-| **Paddle animation Fire** | Change de sprite quand PowerUp attrapé |
-| **FireTimer 10 sec** | Paddle revient normal après 10 secondes |
-| **Fin du pouvoir** | Bullets s'arrêtent après 10 sec |
-| **Score Grey_brick** | +25 points pour casser la Grey_brick |
+| **Bullets** | S'affichent quand le `Paddle` a le `Power_Up` |
+| **Destruction Bricks par Bullets** | Les briques disparaissent quand touchées par `Bullet` |
+| **PowerUp drop** | Lâché quand `Grey_brick` est cassée |
+| **Paddle animation Fire** | Change de sprite quand `Power_Up` attrapé |
+| **FireTimer 10 sec** | `Paddle` revient normal après 10 secondes |
+| **Fin du pouvoir** | `Bullet` s'arrête après 10 sec |
+| **Score Grey_brick** | +25 points pour casser la `Grey_brick` |
+| **Victoire** | Passe au niveau suivant `Level 5` quand il reste 0 brique |
 
 ---
 
