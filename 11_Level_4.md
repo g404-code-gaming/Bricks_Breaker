@@ -71,7 +71,7 @@ Place 3 ou 4 instances de **Grey_brick** stratégiquement (ex : milieu-bas, pour
 
 ### Créer l'objet PowerUp
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_power_up.png" alt="level4" width="600" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_power_up.png" alt="level4" width="800" />
 
 1. **Ajouter un objet** → **"Magasin de ressources"**
 2. Cherche l'objet : **`Power_Up`** 
@@ -87,7 +87,7 @@ Le `Power_Up` n'a pas besoin de variables spéciales pour Level 4 - c'est juste 
 
 ### Créer l'objet Bullet
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_bullet.png" alt="level4" width="600" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/objet_bullet.png" alt="level4" width="800" />
 
 1. **Ajouter un objet** → **"Magsin de ressources"**
 2. Cherche l'objet : **`Bullet`** 
@@ -95,7 +95,7 @@ Le `Power_Up` n'a pas besoin de variables spéciales pour Level 4 - c'est juste 
 4. Doucle-clique dessus et clique sur *Modifier les points*
 5. Prends le point **Origin** et place-le aux mêmes coordonnées que le point **Center**
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/modifier_points_bullet.png" alt="level4" width="600" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/modifier_points_bullet.png" alt="level4" width="800" />
 
 Cette modification va permettre de placer très précisemment les projectiles lorsque le `Paddle` fera feu. 
 
@@ -125,7 +125,9 @@ Ajoute une variable d'objet au Paddle :
 
 <img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/points_paddle_fire_base.png" alt="level4" width="800" />
 
-<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/points_ajoutes.png" alt="level4" width="600" />
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/ajout_points_bullet.png" alt="level4" width="800" />
+
+<img src="https://sebastien-devos.fr/img/codegaming/bricksbreaker/points_ajoutes.png" alt="level4" width="500" />
 
 ### Ajouter le comportement Fire Bullets
 
