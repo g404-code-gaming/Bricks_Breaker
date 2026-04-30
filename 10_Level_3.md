@@ -61,7 +61,7 @@ Toutes les 10 secondes, tu vas déplacer le groupe de `Bricks` de 20px en direct
 
 
 #### Condition
- - Chronomèetre `BrickDropTimer` >= 10 secondes
+ - Chronomètre `BrickDropTimer` >= 10 secondes
 
 #### Actions
 
@@ -102,9 +102,9 @@ Quand toutes les briques sont détruites, n'oublie pas de :
 
 Le timer doit être stoppé avant :
 
-la transition
-le message de victoire
-le changement de scène
+ - la transition
+ - le message de victoire
+ - le changement de scène
 
 Sinon les briques pourraient encore bouger pendant la fin du niveau.
 
